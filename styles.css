@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    font-size: 1.6em;
+    line-height: 1.4;
+    background-color: rgb(238, 238, 238);
+    color: #373a3c;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+}
+
+.container input,
+.container button{
+    animation: transitionIn 0.75s;
+    font-size: 2rem;
+}
+
+.container button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: .5rem 2rem .5rem 2rem;
+    background-color: rgb(243, 36, 36);
+    color: #fff;
+}
+
+@keyframes transitionIn{
+    0%{
+      opacity: 0;
+      transform: translateY(5rem);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

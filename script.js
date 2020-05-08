@@ -11,5 +11,5 @@ btn.addEventListener('click', (e) => {
         newArr.push(strArr[i]);
     }
     newArr = newArr.join("");
-    return alert('Word reversed: ' + newArr);
+    return alert('Value reversed: ' + newArr);
 });
