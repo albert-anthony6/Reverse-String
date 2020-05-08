@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-Simple website to insert and string into an input field and get returned a reversed version of the string.
+Simple website to insert any value into an input field and have it return a reversed version of the value.
 
 ---
 
